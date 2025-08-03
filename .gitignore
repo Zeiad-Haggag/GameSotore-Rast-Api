@@ -1,0 +1,55 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider-specific files
+.idea/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore package directories
+packages/
+node_modules/
+
+# Ignore coverage results
+coverage/
+
+# Ignore publish directory
+.publish/
+
+# Ignore .NET specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore npm debug log
+npm-debug.log
+yarn-error.log
+
+# Ignore logs
+*.log
+
+# Ignore runtime-generated files
+.DS_Store
+*.pid
+*.seed
+*.pid.lock
+
+
+# Ignore DB files
+*.db
+*.db-shm
+*.db-wal
